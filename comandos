@@ -1,0 +1,17 @@
+npm start
+
+vai para o local
+
+docker build -t my-frontend .
+para levar a atualizaçoes
+
+docker run -p 3000:3000 my-frontend
+vai para o docker
+
+ordem para atualizar o docker
+docker build -t my-frontend .
+
+docker ps
+docker stop container_id
+docker rm container_id
+docker run -p 3000:3000 my-frontend
